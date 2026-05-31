@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Encyklopedie - Domů</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">IT_Encyklopedie</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Domů</a></li>
+            <li><a href="pojem1.html">HTML</a></li>
+            <li><a href="pojem2.html">CSS</a></li>
+            <li><a href="pojem3.html">JavaScript</a></li>
+            <li><a href="pojem4.html">Git</a></li>
+            <li><a href="pojem5.html">Responsive</a></li>
+        </ul>
+    </nav>
+
+    <div class="container fade-in">
+        <h1>Vítejte v IT Encyklopedii</h1>
+        <p class="welcome-text">
+            Tento web slouží jako interaktivní přehled základních pojmů z oblasti webového vývoje. 
+            Můžete procházet jednotlivé stránky pomocí horního menu, nebo využít rychlé vyhledávání níže.
+        </p>
+
+        <div class="search-section">
+            <h2>Vyhledat pojem</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Zadejte pojem (HTML, CSS, JavaScript, Git, Responsive)...">
+                <button onclick="searchFunction()">Hledat</button>
+            </div>
+            <p class="hint">Nápověda: Klikněte na tlačítko nebo stiskněte Enter.</p>
+        </div>
+
+        <div class="explanations">
+            <h3>Jak encyklopedii používat?</h3>
+            <ul>
+                <li><strong>Navbar (Menu):</strong> Kliknutím na libovolný pojem v horní liště se ihned otevře stránka s popisem.</li>
+                <li><strong>Vyhledávání:</strong> Zadejte přesný název z menu. Pokud pojem existuje, web vás na něj automaticky přesměruje.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
